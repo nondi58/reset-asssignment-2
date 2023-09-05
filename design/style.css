@@ -45,12 +45,16 @@ nav li a {
 
 /* banner-part */
 .banner-container {
-    padding: 120px 200px;
+    /* padding: 120px 200px;
     margin-right: 50px;
     gap: 200px;
 
     display: flex;
-    align-items: center;
+    align-items: center; */
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    padding: 120px 200px;
 }
 
 .banner-title {
@@ -96,12 +100,17 @@ nav li a {
     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
 }
 .third-section{
-    padding: 120px 200px;
+    /* padding: 120px 200px;
     margin-right: 50px;
     gap: 200px;
+    margin-bottom: 0%;
 
     display: flex;
-    align-items: center;
+    align-items: center; */
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    padding: 120px 200px;
 }
 .third-title{
     text-align: right;
@@ -120,7 +129,44 @@ font-family: Work Sans;
 font-size: 18px;
 font-weight: 400;
 }
+.feature-img img{
+    height: 90;
+    margin-left: 50px;
+}
+.ten-years{
+    
+    margin-top: 0%;
 
+width: 342px;
+padding: 10px;
+margin: 0;
+position: relative;
+bottom: 100px;
 
+}
+/* main-last-part */
+.last-section{
+    display: flex;
+    
+    text-align: center;
+   
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 10px;
+    align-items: center;
+}
+.card-title{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.last-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+
+}
 
 
