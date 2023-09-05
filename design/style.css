@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: #FFF;
-    background-color:dimgrey
+    background-color:#534C64;
 }
 
 .nav-title {
@@ -24,13 +24,13 @@ nav {
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
-   
+
 }
 
 nav>ul {
     display: flex;
     align-items: center;
-    color:#FFF;
+    color: #FFF;
 
 }
 
@@ -38,43 +38,45 @@ nav li {
     list-style: none;
     margin-right: 50px;
     justify-content: center;
-    color:#FFF;
+    color: #FFF;
 }
 
 nav li a {
     text-decoration: none;
-    color:#FFF;
-text-align: center;
-font-family: Work Sans;
-font-size: 18px;
-font-weight: 500;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* banner-part */
 
 .banner-container {
-   
+
     display: flex;
     margin-top: 100px;
     gap: 100px;
     padding: 120px 200px;
 }
+
 .banner {
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
 }
-.banner-content{
-   
+
+.banner-content {
+
     text-align: center;
     margin: 0 auto;
     text-align: center;
 
 }
 
-.banner-image{
+.banner-image {
     width: 600px;
-    
+
     margin-right: 20px;
     padding-right: 80px;
 }
@@ -111,13 +113,13 @@ font-weight: 500;
 .list {
     list-style: none;
     color: #534C64;
-text-align: center;
-font-family: Work Sans;
-font-size: 20px;
-font-weight: 500;
-text-align: left;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
 
-text-transform: lowercase;
+    text-transform: lowercase;
 }
 
 .btn-primary {
@@ -129,123 +131,155 @@ text-transform: lowercase;
     border-radius: 48px;
     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
 }
-.second-primary{
+
+.second-primary {
     display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: #4EC5F7;
-border: none;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
 
 
 }
+
 /* funny-video */
-.main-start-part{
+.main-start-part {
     padding: 10px;
-margin: 100px;
+    margin: 100px;
 
 }
 
 .main-start-heading {
-    
+
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
 .main-start-paragraph {
-   
+
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.funny-video{
+
+.funny-video {
     padding: 10px;
     margin: 100px;
     display: flex;
     gap: 10px;
     padding: 10px;
-   
-   
+
+
 }
- .funny-image{
+
+.funny-image {
     border-radius: 16px;
 
 }
-.third-content{
+.funny-image:hover {
+    background-color: yellow;
+    color: black;
+    background-image: url("https://fontawesome.com/icons/play?f=classic&s=solid");
+   
+  }
+
+.third-content {
     text-align: center;
-margin: 0 auto;
-text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
-.third-section{
+
+.third-section {
 
     display: flex;
     margin-top: 100px;
     gap: 100px;
     padding: 120px 200px;
 }
-.third-title{
+
+.third-title {
     text-align: right;
-font-family: Work Sans;
-font-size: 48px;
-font-weight: 700;
-padding-top: 70px;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 70px;
 
 
 
 }
-.third-description{
+
+.third-description {
     color: #534C64;
-text-align: right;
-font-family: Work Sans;
-font-size: 18px;
-font-weight: 400;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
 }
-.feature-img img{
+
+.feature-img img {
     height: 90;
     margin-left: 50px;
 }
-.ten-years{
-    
+
+.image {
+
     margin-top: 0%;
 
-width: 342px;
-padding: 10px;
-margin: 0;
-position: relative;
-bottom: 100px;
+    width: 342px;
+    /* padding: 10px; */
+    margin-right: 30px;
+    margin: 0;
+    position: relative;
+    bottom: 100px;
 
 }
+
 /* main-last-part */
 
-.last-section{
+.last-section {
     display: flex;
     padding: 10px;
     margin: 100px;
-    
+
     text-align: center;
-   
+
     justify-content: space-evenly;
     margin-top: 50px;
     gap: 10px;
     align-items: center;
 }
-.card-title{
+.card-title:hover{
+    display: inline-flex;
+   
+    border: 2px solid  #F948B2 ;
+    padding: 21px 40px;
+    align-items: flex-start;
+   
+    border-radius: 48px;
+    background-color: #534C64;
+
+}
+
+.card-title {
     display: flex;
     text-align: center;
     gap: 10px;
 }
-.card-title h6{
-    color: #0B0223;
-font-family: Work Sans;
-font-size: 20px;
 
-font-weight: 600;
+.card-title h6 {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+
+    font-weight: 600;
 
 }
-.last-primary{
+
+.last-primary {
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
@@ -253,47 +287,122 @@ font-weight: 600;
     border-radius: 48px;
 
 }
+
 /* footer-part */
-footer{
+footer {
     background: #0B0223;
 }
 
-.footer-section{
+.footer-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:row;
+    flex-direction: row;
     text-align: center;
     gap: 20px;
-    color:#FFF;
+    color: #FFF;
     margin-top: 20px;
 
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 20px;
-    color:#FFF;
+    color: #FFF;
 }
-.footer-title{
+
+.footer-title {
     text-align: center;
-font-family: Work Sans;
-font-size: 45px;
+    font-family: Work Sans;
+    font-size: 45px;
 
-font-weight: 700;
+    font-weight: 700;
 
 }
-.footer-last{
+
+.footer-last {
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 20px;
-    color:#FFF;
-   margin-top: 5px;
+    color: #FFF;
+    margin-top: 5px;
+}
+/* reponsive-format */
+/* for-phone */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    
+    nav    
+    {
+        flex-direction: column;
+
+    }
+    .banner-image{
+        width: 100%;
+        padding: 10px;
+    }
+    .banner-content{
+        padding-left: 0%;
+        font-size: medium;
+       
+    }
+    .banner-title{
+        padding-left: 0%;
+       
+       
+    }
+    .b-title{
+        padding-left: 0%;
+        font-size:40px;
+        
+
+    }
+    .main-start-part{
+        margin-right: 10px;
+    }
+    
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .funny-video{
+        flex-direction: column;
+        padding-left: 0%;
+        margin-left: 0%;
+        
+    }
+    .third-section{
+        flex-direction: column;
+        padding-left: 2%;
+        margin-left: 0%;
+    }
+    .feature-img{
+        width: 100%;
+       margin-left:0cm;
+    }
+    .last-section{
+        flex-direction: column;
+    }
+    
+   
+
+    
+
 }
 
+/* ipad */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
 
+    nav{
+        flex-direction: column;
+    }
 
-
+}
