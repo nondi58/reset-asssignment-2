@@ -168,5 +168,47 @@ bottom: 100px;
     border-radius: 48px;
 
 }
+/* footer-part */
+footer{
+    background: #0B0223;
+}
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    text-align: center;
+    gap: 20px;
+    color:#FFF;
+    margin-top: 20px;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    color:#FFF;
+}
+.footer-title{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+
+font-weight: 700;
+
+}
+.footer-last{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    color:#FFF;
+   margin-top: 5px;
+}
+
+
 
 
